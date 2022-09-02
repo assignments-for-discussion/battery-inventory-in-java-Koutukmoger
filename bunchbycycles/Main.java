@@ -13,7 +13,7 @@ public class Main {
     {
       if(cycle[i]<400)
       {
-        lowcount++;
+         CountsByUsage.lowcount++;
       }
       else if((cycle[i]>=400) && cycle[i]<920 )
       {
