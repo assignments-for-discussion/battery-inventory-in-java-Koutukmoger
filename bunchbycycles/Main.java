@@ -14,15 +14,15 @@ public class Main {
     {
       if(cycles[i]<400)
       {
-         counts.lowcount++;
+         CountsByUsage.lowcount++;
       }
       else if((cycles[i]>=400) && cycles[i]<920 )
       {
-        counts.mediumcount++;
+        CountsByUsage.mediumcount++;
       }
       else
       {
-        counts.highcount++;
+        CountsByUsage.highcount++;
       }
     }
    
