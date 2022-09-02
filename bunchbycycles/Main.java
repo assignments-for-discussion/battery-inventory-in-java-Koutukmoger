@@ -8,6 +8,22 @@ public class Main {
   };
 
   static CountsByUsage countBatteriesByUsage(int[] cycles) {
+   
+    for(int i=0;i<cycle.length;i++)
+    {
+      if(cycle[i]<400)
+      {
+        lowcount++;
+      }
+      else if((cycle[i]>=400) && cycle[i]<920 )
+      {
+        mediumcount++;
+      }
+      else
+      {
+        highcount++;
+      }
+    }
     CountsByUsage counts = new CountsByUsage();
     return counts;
   }
