@@ -9,13 +9,13 @@ public class Main {
 
   static CountsByUsage countBatteriesByUsage(int[] cycles) {
    
-    for(int i=0;i<cycle.length;i++)
+    for(int i=0;i<cycles.length;i++)
     {
-      if(cycle[i]<400)
+      if(cycles[i]<400)
       {
-         CountsByUsage.lowcount++;
+         lowcount++;
       }
-      else if((cycle[i]>=400) && cycle[i]<920 )
+      else if((cycles[i]>=400) && cycles[i]<920 )
       {
         mediumcount++;
       }
